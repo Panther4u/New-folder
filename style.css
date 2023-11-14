@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:wght@300;400;500;600&family=Yellowtail&display=swap');
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.background img{
+    height: 650px;
+    width: 100vw;
+}
+.banner .icon{
+    width: 100%;
+    text-align: end;
+    position: absolute;
+    color: white;
+    opacity: 0.4;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.banner .navig{
+    position: absolute;
+    padding-top: 40px;
+    width: 100%;
+}
+.banner .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.banner .title .head h2{
+    color: white;
+}
+
+.banner .title .head h2 i{
+    color: brown;
+    font-size: 60px;
+    font-family: Lavishly Yours;
+    font-weight: 600;
+}
+
+.banner .navig .category ul{
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+.banner .navig .category ul li{
+    padding-left: 20px;
+    color: white;
+}
+
+.banner .navig .category ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner .navig .category ul li a:hover{
+    padding: 1px 8px;
+    border: 2px solid #FF7A00;
+    transform: scale(1.1);
+    transition: all 0.42s;
+}
+
+.banner .navig .category ul li .home{
+    color: #FF7A00;
+}
+
+.banner .navig .category ul li .sign{
+    padding: 5px 10px;
+    background-color: #FF7A00;
+    border-radius: 5px;
+    padding-bottom: 9px;
+}
+
+.banner .content{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 13%;
+    color: white;
+    margin-left: 35%;
+}
+
+.banner .content h2{
+    font-weight: 400;
+}
+
+.banner .content h1{
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.banner .content h6{
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.banner .content h6 span{
+    padding-left: 10%;
+}
+
+.banner .content button{
+    margin-left: 15%;
+    font-size: 14px;
+    padding: 1px 10px;
+    border-radius: 3px;
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.banner .content button i{
+    font-size: 20px;
+
+}
+
+.banner .scroll {
+    position: absolute;
+    display: flex;
+    margin-top: 38%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.banner .scroll i{
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
