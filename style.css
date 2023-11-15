@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 100vw;
+    width: 700px;
     height: 100vh;
 }
 
@@ -20,22 +20,21 @@ body{
 
 .background img{
     height: 650px;
-    width: 100vw;
+    width: 1263px;
 }
 .banner .icon{
-    width: 100%;
+    width: 1230px;
     text-align: end;
     position: absolute;
     color: white;
     opacity: 0.4;
-    padding-right: 40px;
     font-size: 20px;
 }
 
 .banner .navig{
     position: absolute;
     padding-top: 40px;
-    width: 100%;
+    width: 1230px;
 }
 .banner .title{
     display: flex;
@@ -60,7 +59,6 @@ body{
     align-items: flex-end;
     font-size: 18px;
     padding-top: 10px;
-    margin-right: 50px;
 }
 
 .banner .navig .category ul li{
@@ -74,21 +72,33 @@ body{
 }
 
 .banner .navig .category ul li a:hover{
-    padding: 1px 8px;
+    padding: 1px 3px;
     border: 2px solid #FF7A00;
-    transform: scale(1.1);
-    transition: all 0.42s;
+    background-color: #FF7A00;
+    transform: scale(1);
+    transition: all 0.22s;
+    border-radius: 3px;
 }
 
 .banner .navig .category ul li .home{
     color: #FF7A00;
 }
 
-.banner .navig .category ul li .sign{
-    padding: 5px 10px;
+.banner .navig .category ul li .home:hover{
+    color: blue;
+}
+
+.banner .navig .category ul li button{
+    padding: 3px 9px;
     background-color: #FF7A00;
     border-radius: 5px;
-    padding-bottom: 9px;
+    border: none;
+    color: white;
+}
+
+.banner .navig .category ul li button:hover{
+    transform: scale(1.1);
+    transition: all 0.22s;
 }
 
 .banner .content{
@@ -96,9 +106,9 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 13%;
+    margin-top: 25%;
     color: white;
-    margin-left: 35%;
+    margin-left: 55%;
 }
 
 .banner .content h2{
@@ -108,11 +118,13 @@ body{
 .banner .content h1{
     font-weight: 600;
     font-size: 70px;
+    padding-bottom: 5px;
 }
 
 .banner .content h6{
     font-weight: 400;
     padding-left: 50px;
+
 }
 
 .banner .content h6 span{
@@ -120,7 +132,7 @@ body{
 }
 
 .banner .content button{
-    margin-left: 15%;
+    margin-left: 30%;
     font-size: 14px;
     padding: 1px 10px;
     border-radius: 3px;
@@ -139,16 +151,127 @@ body{
 .banner .scroll {
     position: absolute;
     display: flex;
-    margin-top: 38%;
+    margin-top: 75%;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 1230px;
     margin-left: 30px;
 }
 
 .banner .scroll i{
     color: white;
     padding-left: 20px;
+    font-size: 15px;
+}
+
+.banner .scroll span i{
+    color: #FF7A00;
+}
+
+.banner .shipping{
+    position: absolute;
+    display: flex;
+    
+}
+
+.banner .shipping .bg{
+    margin-top: 38rem;
+    margin-left: 35px;
+    
+}
+
+.banner .shipping .bg img{
+    width: 1200px;
+    border: 1px solid transparent ;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 15px;
+}
+
+.banner .shipping .delivery{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5rem;
+    
+}
+
+.banner .shipping .delivery .one{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .one i{
+    background-color: transparent;
+    font-size: 50px;
+
+}
+
+.banner .shipping .delivery .one h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .one h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.banner .shipping .delivery .two{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .two i{
+    background-color: transparent;
+    font-size: 50px;
+    
+}
+
+.banner .shipping .delivery .two h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .two h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.banner .shipping .delivery .three{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .three i{
+    background-color: transparent;
+    font-size: 50px;
+    
+}
+
+.banner .shipping .delivery .three h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .three h5 span{
+    font-weight: 300;
     font-size: 15px;
 }
 
